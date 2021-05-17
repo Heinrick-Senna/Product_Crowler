@@ -7,12 +7,12 @@ Este software funciona de maneiras simples e em pequena escala. Esta aplicação
   
 <h1 align="center"> 🔍 Como usar este software? </h1>
   O manuseio é simples conforme o passo-a-passo:<br>
-  <ul>
-    <a href="#Links">Links</a>
-    <a href="#Produtos">Produtos</a>
-    <a href="#Imagens">Imagens</a>
-  </ul>
---------------------------
+<ul align="center">
+  <a href="#Links">Links</a><br>
+  <a href="#Produtos">Produtos</a><br>
+  <a href="#Imagens">Imagens</a>
+</ul>
+
 <h1 align="center" id="Links"> 🌍 Links</h1>
 Para obter os links dos produtos você deve dar como input um arquivo .txt contendo o endereço do site desejado e o endereço de suas respectivas categorias, tal como o exemplo:
 <br><ul>

@@ -14,14 +14,14 @@ Este software funciona de maneiras simples e em pequena escala. Esta aplicação
 --------------------------
 <h1 id="Links"> 🌍 Links</h1>
 Para obter os links dos produtos você deve dar como input um arquivo .txt contendo o endereço do site desejado e o endereço de suas respectivas categorias, tal como o exemplo:<br>
-  * [https://wwww.lojateste.com.br]
-  * [www.lojateste.com.br]
-  * [https://wwww.lojateste.com.br/categoriateste]
+  * https://wwww.lojateste.com.br<br>
+  * www.lojateste.com.br<br>
+  * https://wwww.lojateste.com.br/categoriateste]<br>
 *Obs:* Este arquivo deve possuir o nome LINKS.txt e os links devem estar separados por *";"* e sem espaços.
 
 O segundo input é um arquivo .txt nomeado INPUT.txt onde dentro dele vai constar a classe do elemento de produto. Basicamente onde está localizado o link dos produtos na página, como por exemplo:<br>
-* [.product-link]
-* [.product-info a]
+* .product-link<br>
+* .product-info a<br>
 Apenas um input deverá ser fornecido no formato de seletor CSS
 
 Execute: "npm run produto";
@@ -38,6 +38,6 @@ Para obter todas as imagens de cada produto na loja use como input os arquivos C
 
 Execute "npm run download"
 Feito isso a saída esperada será todas as imagens de cada produtos salvas na pasta output, seguindo os nomes tal como exemplo:<br>
-* [Código]
-* [Código_2]
-* [Código_3]
+* Código<br>
+* Código_2<br>
+* Código_3<br>

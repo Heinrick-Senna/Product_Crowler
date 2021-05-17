@@ -34,7 +34,7 @@ Execute: "npm run produto"; A saída de dados esperada é um .txt nomeado LINKS 
 
 <h1 align="center" id="Produtos"> 🛍 Produtos</h1>
 Para obter uma planilha com informações sobre cada produto você deverá deixar na pasta de input *apenas e somente ele* o arquivo LINKS.txt que foi dado gerado no passo anterior.
-<br>
+<br><br>
 Execute: "npm run produto";
 Feito isso será gerada uma planilha chamada Produtos.xlsx e dois arquivos CODES.txt e IMAGES.txt que serão usados no passo seguinte.
 

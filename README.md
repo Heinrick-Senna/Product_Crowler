@@ -14,7 +14,7 @@ Este software funciona de maneiras simples e em pequena escala. Esta aplicação
 --------------------------
 <h1 id="Links"> 🌍 Links</h1>
 Para obter os links dos produtos você deve dar como input um arquivo .txt contendo o endereço do site desejado e o endereço de suas respectivas categorias, tal como o exemplo:
-<ul>
+<br><ul>
 <li>https://siteteste.com.br/</li>
 <li>https://www.siteteste.com.br/</li>
 <li>https://www.sitesteste.com.br/categoriateste</li>

@@ -1,0 +1,21 @@
+{
+  "name": "products_crowler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "produto": "nodemon --insecure-http-parser app.js",
+    "imagem": "node --insecure-http-parser download.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "excel4node": "^1.7.2"
+  },
+  "devDependencies": {
+    "iconv-lite": "^0.6.2",
+    "iso-8859-2": "^1.0.0"
+  }
+}

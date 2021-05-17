@@ -13,8 +13,8 @@ Este software funciona de maneiras simples e em pequena escala. Esta aplicação
 
 --------------------------
 <h1 id="Links"> 🌍 Links</h1>
-Para obter os links dos produtos você deve dar como input um arquivo .txt contendo o endereço do site desejado e o endereço de suas respectivas categorias, tal como o exemplo:
-- https://wwww.lojateste.com.br
+Para obter os links dos produtos você deve dar como input um arquivo .txt contendo o endereço do site desejado e o endereço de suas respectivas categorias, tal como o exemplo:\
+- https://wwww.lojateste.com.br\
 - www.lojateste.com.br
 - https://wwww.lojateste.com.br/categoriateste
 *Obs:* Este arquivo deve possuir o nome LINKS.txt e os links devem estar separados por *";"* e sem espaços.

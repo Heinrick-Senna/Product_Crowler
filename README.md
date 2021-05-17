@@ -17,7 +17,7 @@ Para obter os links dos produtos você deve dar como input um arquivo .txt conte
 * <span>https://wwww.lojateste.com.br</span><br>
 * <span>www.lojateste.com.br</span><br>
 * <span>https://wwww.lojateste.com.br/categoriateste</span><br><br>
-*Obs:* Este arquivo deve possuir o nome LINKS.txt e os links devem estar separados por *";"* e sem espaços.
+Obs: Este arquivo deve possuir o nome LINKS.txt e os links devem estar separados por *";"* e sem espaços.
 <br><br>
 O segundo input é um arquivo .txt nomeado INPUT.txt onde dentro dele vai constar a classe do elemento de produto. Basicamente onde está localizado o link dos produtos na página, como por exemplo:<br>
 * .product-link<br>
@@ -29,7 +29,7 @@ Execute: "npm run produto"; A saída de dados esperada é um .txt nomeado LINKS 
 
 <h1 id="Produtos"> 🛍 Produtos</h1>
 Para obter uma planilha com informações sobre cada produto você deverá deixar na pasta de input *apenas e somente ele* o arquivo LINKS.txt que foi dado gerado no passo anterior.
-
+<br>
 Execute: "npm run produto";
 Feito isso será gerada uma planilha chamada Produtos.xlsx e dois arquivos CODES.txt e IMAGES.txt que serão usados no passo seguinte.
 

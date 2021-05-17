@@ -16,10 +16,9 @@ Este software funciona de maneiras simples e em pequena escala. Esta aplicação
 Para obter os links dos produtos você deve dar como input um arquivo .txt contendo o endereço do site desejado e o endereço de suas respectivas categorias, tal como o exemplo:<br>
 * <span>https://wwww.lojateste.com.br</span><br>
 * <span>www.lojateste.com.br</span><br>
-* <span>https://wwww.lojateste.com.br/categoriateste</span><br>
- 
+* <span>https://wwww.lojateste.com.br/categoriateste</span><br><br>
 *Obs:* Este arquivo deve possuir o nome LINKS.txt e os links devem estar separados por *";"* e sem espaços.
-<br>
+<br><br>
 O segundo input é um arquivo .txt nomeado INPUT.txt onde dentro dele vai constar a classe do elemento de produto. Basicamente onde está localizado o link dos produtos na página, como por exemplo:<br>
 * .product-link<br>
 * .product-info a<br>

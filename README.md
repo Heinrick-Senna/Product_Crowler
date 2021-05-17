@@ -19,9 +19,9 @@ Para obter os links dos produtos você deve dar como input um arquivo .txt conte
 - https://wwww.lojateste.com.br/categoriateste
 *Obs:* Este arquivo deve possuir o nome LINKS.txt e os links devem estar separados por *";"* e sem espaços.
 
-O segundo input é um arquivo .txt nomeado INPUT.txt onde dentro dele vai constar a classe do elemento de produto. Basicamente onde está localizado o link dos produtos na página, como por exemplo:
-- .product-link
-- .product-info a
+O segundo input é um arquivo .txt nomeado INPUT.txt onde dentro dele vai constar a classe do elemento de produto. Basicamente onde está localizado o link dos produtos na página, como por exemplo:\
+- .product-link\
+- .product-info a\
 Apenas um input deverá ser fornecido no formato de seletor CSS
 
 Execute: "npm run produto";

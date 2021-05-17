@@ -16,17 +16,17 @@ Este software funciona de maneiras simples e em pequena escala. Esta aplicação
 Para obter os links dos produtos você deve dar como input um arquivo .txt contendo o endereço do site desejado e o endereço de suas respectivas categorias, tal como o exemplo:<br>
 * https://wwww.lojateste.com.br<br>
 * www.lojateste.com.br<br>
-* https://wwww.lojateste.com.br/categoriateste<br>
-*Obs:* Este arquivo deve possuir o nome LINKS.txt e os links devem estar separados por *";"* e sem espaços.
-
+* https://wwww.lojateste.com.br/categoriateste<br> 
+ 
+Obs:* Este arquivo deve possuir o nome LINKS.txt e os links devem estar separados por *";"* e sem espaços.
+<br>
 O segundo input é um arquivo .txt nomeado INPUT.txt onde dentro dele vai constar a classe do elemento de produto. Basicamente onde está localizado o link dos produtos na página, como por exemplo:<br>
 * .product-link<br>
 * .product-info a<br>
 
 Apenas um input deverá ser fornecido no formato de seletor CSS
 
-Execute: "npm run produto";
-A saída de dados esperada é um .txt nomeado LINKS com todos os links de cada produto na loja.
+Execute: "npm run produto"; A saída de dados esperada é um .txt nomeado LINKS com todos os links de cada produto na loja.
 
 <h1 id="Produtos"> 🛍 Produtos</h1>
 Para obter uma planilha com informações sobre cada produto você deverá deixar na pasta de input *apenas e somente ele* o arquivo LINKS.txt que foi dado gerado no passo anterior.

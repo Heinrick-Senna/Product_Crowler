@@ -1,5 +1,6 @@
 // Módulos para requisições
 const axios = require('axios'), cheerio = require('cheerio');
+const { DH_CHECK_P_NOT_SAFE_PRIME } = require('constants');
 
 // Módulos Gravar Arquivos
 const fs = require('fs'), xl = require('excel4node'), wb = new xl.Workbook();
@@ -10,10 +11,10 @@ const iso88592 = require('iso-8859-2'), iconv = require('iconv-lite')
 // Requisição
 function mainRequest () {
   // Lendo arquivos na pasta /input
-  const urlsrepeat = fs.readFileSync(__dirname + '/input/LINKS.txt', 'utf-8').toString().split(";"),
+  const urlsrepeat = JSON.parse(fs.readFileSync(__dirname + '/LINKS.txt', 'utf-8')),
         urls = urlsrepeat.filter((elem, i) => urlsrepeat.indexOf(elem) === i);
 
-    if(fs.existsSync(__dirname + '/input/INPUT.txt')) {
+    if(fs.existsSync(__dirname + '/INPUT.txt')) {
       // Caso o arquivo de input exista, então é uma requisição por links
       linksRequest(urls);
     } else {
@@ -26,7 +27,7 @@ function mainRequest () {
 // Requisições por Links
 function linksRequest (urls) {
   // Declarando input para o parametro do Cheerio
-  const input = fs.readFileSync(__dirname + '/input/INPUT.txt', 'utf-8').toString();
+  const input = fs.readFileSync(__dirname + '/INPUT.txt', 'utf-8').toString();
 
   new Promise((resolve, reject) => {
     // Declarando buffers

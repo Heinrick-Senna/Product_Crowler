@@ -1,4 +1,4 @@
-<h1 align="center">Products_Crowler</h1>
+<h1 align="center">Product_Crowler</h1>
 
 Este software funciona de maneiras simples e em pequena escala. Esta aplicação apenas tem como intuito estudos práticos de programação. Não há intenções maliciosas por trás deste código.
 
